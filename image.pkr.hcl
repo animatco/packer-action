@@ -5,7 +5,10 @@
 /* Packer Block - Contains Packer settings, including Packer version
                   as well as the required plugins. Anyone can write a plugin (GoLang)
                   Alta3 Research has an introduction to GoLang course (5 days) */
-packer {
+
+# The "firecracker" block is an intentional error, the line should read as:
+# packer {   
+firecracker {
   required_plugins {
     // The Docker Builder (plugin) - built, maintained, and distributed by HashiCorp
     docker = {
