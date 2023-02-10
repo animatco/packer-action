@@ -8,7 +8,7 @@
 
 # The "firecracker" block is an intentional error, the line should read as:
 # packer {   
-packer {
+firecracker {
   required_plugins {
     // The Docker Builder (plugin) - built, maintained, and distributed by HashiCorp
     docker = {
